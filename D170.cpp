@@ -1,4 +1,4 @@
-// Check if Linked list is SORTED or not ? are bhai kya hai re 
+// Check if Linked list is SORTED or not ?
 #include <iostream>
 using namespace std;
 
