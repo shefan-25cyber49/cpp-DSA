@@ -1,0 +1,16 @@
+// Sum of first 'n' natural no. using recursion
+#include <iostream>
+using namespace std;
+
+int sum(int n)
+{
+    if (n <= 0)
+        return 0;
+    else
+        return sum(n - 1) + n;
+}
+int main()
+{
+    cout << sum(10) << endl;
+    return 0;
+}
